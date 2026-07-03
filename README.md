@@ -138,7 +138,7 @@ Deploy a fault-tolerant web application on AWS that can automatically distribute
 
   * Minimum Capacity: 2
   * Desired Capacity: 2
-  * Maximum Capacity: 5
+  * Maximum Capacity: 4
 
 ---
 
@@ -210,22 +210,22 @@ aws-highly-available-web-application/
 │
 ├── README.md
 ├── architecture/
-│   └── architecture-diagram.png
+│   └── architecture-diagrams.png
 │
 ├── scripts/
 │   ├── apache-install.sh
 │   └── user-data.sh
 │
 ├── screenshots/
-│   ├── 01-ec2-instances.png
-│   ├── 02-apache-installation.png
-│   ├── 03-ebs-volume.png
-│   ├── 04-target-group.png
-│   ├── 05-load-balancer.png
-│   ├── 06-auto-scaling-group.png
-│   ├── 07-cloudwatch-metrics.png
-│   ├── 08-cloudwatch-alarm.png
-│   └── 09-final-output.png
+│   ├── 01-EC2InstanceCreation.png
+│   ├── 02-ALBCreation.png
+│   ├── 03-ASGCreation.png
+│   ├── 04-SNSSubscription.png
+│   ├── 05-ASGCreationOutput.png
+│   ├── 06-EBSAttachToEC2.png
+│   ├── 07-EBSAttachedOutputServer.png
+│   ├── 08-CPUUtilizationGraph.png
+│   └── 09-CloudWatchAlaramOutput.png
 │
 
 
